@@ -1,6 +1,6 @@
 # automatically loaded by ueventd
 bluetooth
-btqca
+btqcomsmd
 cec
 cfg80211
 drm_display_helper

@@ -1,3 +1,10 @@
+drm_display_helper.ko
+cec.ko
+drm_exec.ko
+drm_gpuvm.ko
+gpu-sched.ko
+mdt_loader.ko
+ubwc_config.ko
 panel-xiaomi-kenzo-nt35532-boe.ko
 panel-xiaomi-kenzo-nt35596-tianma.ko
 panel-xiaomi-kenzo-r63315-sharp.ko
