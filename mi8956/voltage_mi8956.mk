@@ -8,12 +8,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from device
 $(call inherit-product, device/xiaomi/mi89xx-mainline/mi8956/device.mk)
 
-PRODUCT_NAME := lineage_mi8956
+PRODUCT_NAME := voltage_mi8956
 PRODUCT_DEVICE := mi8956
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi

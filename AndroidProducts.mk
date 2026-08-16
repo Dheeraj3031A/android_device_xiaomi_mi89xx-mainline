@@ -16,7 +16,7 @@ PRODUCT_MAKEFILES := \
     lineage_daisy_mainline:$(LOCAL_DIR)/daisy_mainline/lineage_daisy_mainline.mk \
     lineage_mi439_mainline:$(LOCAL_DIR)/mi439_mainline/lineage_mi439_mainline.mk \
     lineage_mi8916:$(LOCAL_DIR)/mi8916/lineage_mi8916.mk \
-    lineage_mi8956:$(LOCAL_DIR)/mi8956/lineage_mi8956.mk \
+    voltage_mi8956:$(LOCAL_DIR)/mi8956/voltage_mi8956.mk \
     lineage_mi8953_a:$(LOCAL_DIR)/mi8953_a/lineage_mi8953_a.mk \
     lineage_mi8953_a_car:$(LOCAL_DIR)/mi8953_a/lineage_mi8953_a_car.mk \
     lineage_mi8953_a_tv:$(LOCAL_DIR)/mi8953_a/lineage_mi8953_a_tv.mk \
@@ -40,7 +40,7 @@ $(foreach build_type, user userdebug eng, \
     $(eval COMMON_LUNCH_CHOICES += lineage_daisy_mainline-$(build_type)) \
     $(eval COMMON_LUNCH_CHOICES += lineage_mi439_mainline-$(build_type)) \
     $(eval COMMON_LUNCH_CHOICES += lineage_mi8916-$(build_type)) \
-    $(eval COMMON_LUNCH_CHOICES += lineage_mi8956-$(build_type)) \
+    $(eval COMMON_LUNCH_CHOICES += voltage_mi8956-$(build_type)) \
     $(eval COMMON_LUNCH_CHOICES += lineage_mi8953_a-$(build_type)) \
     $(eval COMMON_LUNCH_CHOICES += lineage_mi8953_a_car-$(build_type)) \
     $(eval COMMON_LUNCH_CHOICES += lineage_mi8953_a_tv-$(build_type)) \
