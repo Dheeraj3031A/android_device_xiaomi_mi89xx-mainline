@@ -18,3 +18,7 @@ rfkill
 ubwc_config
 wcn36xx
 wcnss_ctrl
+qcom_q6v5_pas
+slim-qcom-ngd-ctrl
+snd-soc-wcd9335
+snd-soc-sm8250
